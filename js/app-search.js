@@ -18,6 +18,7 @@ function startNewSearch() {
   });
 }
 
+//Consome API do Itunes para Realizar a busca
 async function doSearch(q) {
   if (!q.trim()) return;
   state.query = q.trim();
